@@ -2,6 +2,11 @@
 
 This project is aimed at providing a sales report solution for VGTS.
 
+## Live Link
+You can access the live application at [VG E-Comm](https://vg-e-comm-b2yc.vercel.app). React
+
+You can access the live application at [VG E-Comm-Server](https://vg-e-comm.vercel.app). Server
+
 ## Installation
 
 1. Clone the repository:
