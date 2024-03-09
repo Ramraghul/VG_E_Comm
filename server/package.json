@@ -11,13 +11,9 @@
   "private": true,
   "scripts": {
     "start": "npm run local",
-    "local": "nodemon ./src/Server.ts",
+    "local": "nodemon Server.ts",
     "build": "tsc",
-    "test": "jest",
-    "prepush": "npm run test",
-    "generate_docs": "ts-node ./src/Doc/Swagger/master.swagger.ts",
-    "dev": "npm run local",
-    "production": "NODE_ENV=production npm run start"
+    "dev": "npm run local"
   },
   "dependencies": {
     "@types/request-ip": "^0.0.41",

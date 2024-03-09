@@ -1,14 +1,14 @@
 import express, { Request, Response, NextFunction } from 'express';
 import logger from 'morgan';
 import chalk from 'chalk';
-import Route from './routes/product.routes';
+import Route from './src/routes/product.routes';
 import cors from 'cors';
 import compression from 'compression';
 import helmet from 'helmet';
 import dotenv from 'dotenv';
 
 dotenv.config();
-require('./connection/connection.db')
+require('./src/connection/connection.db')
 
 const app = express();
 
