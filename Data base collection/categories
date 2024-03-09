@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "65ebc6a2113625609f2c4b51"
+  },
+  "list": [
+    "electronics",
+    "jewelery",
+    "men's clothing",
+    "women's clothing"
+  ]
+}]

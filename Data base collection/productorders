@@ -1,0 +1,191 @@
+[{
+  "_id": {
+    "$oid": "65ebecd280c944ab1b4ad1a4"
+  },
+  "orderId": "D919AF9A",
+  "totalItem": 6,
+  "totalPrice": "609",
+  "products": [
+    {
+      "id": 9,
+      "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+      "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+      "price": "64",
+      "quantity": 1,
+      "totalPrice": 64,
+      "_id": {
+        "$oid": "65ebecd280c944ab1b4ad1a5"
+      }
+    },
+    {
+      "id": 10,
+      "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+      "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+      "price": "109",
+      "quantity": 1,
+      "totalPrice": 109,
+      "_id": {
+        "$oid": "65ebecd280c944ab1b4ad1a6"
+      }
+    },
+    {
+      "id": 11,
+      "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+      "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+      "price": "109",
+      "quantity": 4,
+      "totalPrice": 436,
+      "_id": {
+        "$oid": "65ebecd280c944ab1b4ad1a7"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1709960402720"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1709960402720"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "65ebed8680c944ab1b4ad1a9"
+  },
+  "orderId": "91B2E6EC",
+  "totalItem": 9,
+  "totalPrice": "638.95",
+  "products": [
+    {
+      "id": 1,
+      "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "price": "109.95",
+      "quantity": 5,
+      "totalPrice": 549.75,
+      "_id": {
+        "$oid": "65ebed8680c944ab1b4ad1aa"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Mens Casual Premium Slim Fit T-Shirts",
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "price": "22.3",
+      "quantity": 4,
+      "totalPrice": 89.2,
+      "_id": {
+        "$oid": "65ebed8680c944ab1b4ad1ab"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1709960582897"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1709960582897"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "65ebf43bcbef07eb7a9f1202"
+  },
+  "orderId": "B01CB2E5",
+  "totalItem": 15,
+  "totalPrice": "4255.93",
+  "products": [
+    {
+      "id": 6,
+      "title": "Solid Gold Petite Micropave ",
+      "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+      "price": "168",
+      "quantity": 5,
+      "totalPrice": 840,
+      "_id": {
+        "$oid": "65ebf43bcbef07eb7a9f1203"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Mens Cotton Jacket",
+      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+      "price": "55.99",
+      "quantity": 4,
+      "totalPrice": 223.96,
+      "_id": {
+        "$oid": "65ebf43bcbef07eb7a9f1204"
+      }
+    },
+    {
+      "id": 9,
+      "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+      "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+      "price": "64",
+      "quantity": 3,
+      "totalPrice": 192,
+      "_id": {
+        "$oid": "65ebf43bcbef07eb7a9f1205"
+      }
+    },
+    {
+      "id": 14,
+      "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+      "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+      "price": "999.99",
+      "quantity": 3,
+      "totalPrice": 2999.9700000000003,
+      "_id": {
+        "$oid": "65ebf43bcbef07eb7a9f1206"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1709962299223"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1709962299223"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "65ebf4c6cbef07eb7a9f1221"
+  },
+  "orderId": "16482598",
+  "totalItem": 1,
+  "totalPrice": "15.99",
+  "products": [
+    {
+      "id": 4,
+      "title": "Mens Casual Slim Fit",
+      "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+      "price": "15.99",
+      "quantity": 1,
+      "totalPrice": 15.99,
+      "_id": {
+        "$oid": "65ebf4c6cbef07eb7a9f1222"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1709962438104"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1709962438104"
+    }
+  },
+  "__v": 0
+}]
