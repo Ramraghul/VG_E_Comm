@@ -14,7 +14,7 @@ export const fetchCategories = () => {
     return async (dispatch) => {
         const startTime = new Date();
         try {
-            const response = await axios.get(`http://localhost:9000/api/v1/getProductCategory`);
+            const response = await axios.get(`https://vg-e-comm.vercel.app/api/v1/getProductCategory`);
             const responseTime = calculateResponseTime(startTime);
             console.log(`Response time for fetchCategories: ${responseTime}ms`);
             dispatch(getCategories(response.data.data))
@@ -29,7 +29,7 @@ export const fetchCategoryItems = (category) => {
     return async (dispatch) => {
         const startTime = new Date();
         try {
-            const response = await axios.get(`http://localhost:9000/api/v1/getProductCategoryWise?categories=${category}`);
+            const response = await axios.get(`https://vg-e-comm.vercel.app/api/v1/getProductCategoryWise?categories=${category}`);
             const responseTime = calculateResponseTime(startTime);
             console.log(`Response time for fetchCategoryItems: ${responseTime}ms`);
             dispatch(getCategoryItems(response.data.data));
@@ -44,7 +44,7 @@ export const fetchCategoryItemsById = (id) => {
     return async (dispatch) => {
         const startTime = new Date();
         try {
-            const response = await axios.get(`http://localhost:9000/api/v1/getProductById?productId=${id}`);
+            const response = await axios.get(`https://vg-e-comm.vercel.app/api/v1/getProductById?productId=${id}`);
             const responseTime = calculateResponseTime(startTime);
             console.log(`Response time for fetchCategoryItemsById: ${responseTime}ms`);
             dispatch(categoryItemsView(response.data.data[0]))
@@ -58,7 +58,7 @@ export const placeOrder = (Order) => {
     return async (dispatch) => {
         const startTime = new Date();
         try {
-            await axios.post(`http://localhost:9000/api/v1/placeOrder`, Order);
+            await axios.post(`https://vg-e-comm.vercel.app/api/v1/placeOrder`, Order);
             dispatch(clearCart())
             const responseTime = calculateResponseTime(startTime);
             console.log(`Response time for fetchAllOrder: ${responseTime}ms`);
@@ -73,7 +73,7 @@ export const fetchAllOrder = () => {
     return async (dispatch) => {
         const startTime = new Date();
         try {
-            const response = await axios.get(`http://localhost:9000/api/v1/getOrderList`);
+            const response = await axios.get(`https://vg-e-comm.vercel.app/api/v1/getOrderList`);
             console.log(response.data.data);
             dispatch(orderList(response.data.data))
             const responseTime = calculateResponseTime(startTime);
