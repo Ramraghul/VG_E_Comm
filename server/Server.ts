@@ -83,10 +83,7 @@ app.use(express.urlencoded({ extended: false }));
 
 // Check Backend Working Or Not and Welcome Message And Bearer Token For API
 app.get("/", (req: Request, res: Response) => {
-    res.status(200).json({
-        status: true,
-        message: 'Welcome to Product Server',
-    });
+    res.send(`<h1>Finally Working</h1>`)
 });
 
 // Mount the router
